@@ -12,6 +12,8 @@
 
 # production
 /build
+/dist
+/main
 
 # misc
 .DS_Store
@@ -37,3 +39,7 @@ next-env.d.ts
 .vscode/
 *.swp
 *.swo
+
+# Electron
+/dist/
+/main/
