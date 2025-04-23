@@ -10,6 +10,18 @@ An advanced admin dashboard built with Next.js for managing smart headphone conf
 - **Linting**: ESLint
 - **Development Server**: Turbopack
 
+## Features
+
+- Modern Next.js 15.3.1 with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- ESLint for code quality
+- Turbopack for fast development builds
+- Custom port configuration (3002)
+- Real-time updates and synchronization
+- Multi-user support
+- Cloud-based data management
+
 ## Getting Started
 
 ### Prerequisites
@@ -41,7 +53,7 @@ yarn dev
 
 The application will be available at [http://localhost:3002](http://localhost:3002)
 
-### Build for Production
+### Building for Production
 
 ```bash
 npm run build
@@ -64,15 +76,6 @@ smart-headphones-ai-admin/
 ├── next.config.ts   # Next.js configuration
 └── package.json     # Project dependencies and scripts
 ```
-
-## Features
-
-- Modern Next.js 15.3.1 with App Router
-- TypeScript for type safety
-- Tailwind CSS for styling
-- ESLint for code quality
-- Turbopack for fast development builds
-- Custom port configuration (3002)
 
 ## Contributing
 
