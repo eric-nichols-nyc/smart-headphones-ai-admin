@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Smart Headphones AI Admin Dashboard
+
+An advanced admin dashboard built with Next.js for managing smart headphone configurations, analytics, and user settings.
+
+## Tech Stack
+
+- **Framework**: Next.js 15.3.1
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Linting**: ESLint
+- **Development Server**: Turbopack
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js (Latest LTS version recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/eric-nichols-nyc/smart-headphones-ai-admin.git
+cd smart-headphones-ai-admin
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application will be available at [http://localhost:3002](http://localhost:3002)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+# or
+yarn build
+yarn start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+smart-headphones-ai-admin/
+├── src/
+│   ├── app/          # App router pages and layouts
+│   ├── components/   # Reusable components
+│   ├── lib/         # Utility functions and libraries
+│   └── styles/      # Global styles and Tailwind config
+├── public/          # Static assets
+├── next.config.ts   # Next.js configuration
+└── package.json     # Project dependencies and scripts
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Modern Next.js 15.3.1 with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- ESLint for code quality
+- Turbopack for fast development builds
+- Custom port configuration (3002)
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
